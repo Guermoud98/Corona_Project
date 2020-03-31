@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
+  padding: 12px 50px;
   background-image: url(/Design/Assets/png/Mergedbar-61@2x.png);
   height: 10vh; }
   .header__lists {
@@ -11,7 +11,24 @@
     .header__lists li {
       padding: 0 20px; }
     .header__lists a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: black; }
+
+.section1 {
+  line-height: 20px;
+  background-color: #F4CF1B;
+  padding: 10px; }
+  .section1__parag {
+    font-size: 15px;
+    width: 45vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -10px;
+    color: #1078AD; }
+  .section1__title {
+    text-align: center;
+    margin-top: -5px;
+    font-size: 17px; }
 
 body {
   margin: 0;
