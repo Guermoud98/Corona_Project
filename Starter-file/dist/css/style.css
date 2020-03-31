@@ -57,7 +57,8 @@
       border: 1px solid #1078AD;
       padding: 6px 130px;
       background-color: #1078AD;
-      font-weight: bold; }
+      font-weight: bold;
+      border-radius: 5px; }
 
 body {
   margin: 0;
