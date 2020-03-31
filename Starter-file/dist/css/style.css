@@ -4,7 +4,7 @@
   align-items: center;
   padding: 12px 50px;
   background-image: url(/Design/Assets/png/Mergedbar-53.png);
-  height: 10vh; }
+  height: 9vh; }
   .header__lists {
     display: flex;
     list-style-type: none; }
@@ -17,7 +17,7 @@
 .section1 {
   line-height: 20px;
   background-color: #F4CF1B;
-  padding: 10px; }
+  padding: 20px; }
   .section1__parag {
     font-size: 15px;
     width: 45vw;
@@ -27,7 +27,7 @@
     color: #1078AD; }
   .section1__title {
     text-align: center;
-    margin-top: -5px;
+    margin-top: -2px;
     font-size: 17px; }
 
 .section2 {
@@ -61,13 +61,36 @@
       border-radius: 5px; }
 
 .section3 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 30px auto;
-  width: 38vw;
+  width: 30vw;
+  margin-top: 10px;
+  margin: auto; }
+  .section3 h2 {
+    text-align: center;
+    color: #1078AD; }
+  .section3__groups {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 20px; }
+
+.section4 {
+  background-color: #1078AD;
   text-align: center;
-  font-size: 20px; }
+  margin-top: 20px;
+  height: 30vh; }
+  .section4 h1 {
+    color: #D0E5F0; }
+  .section4__recomm {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 70vw; }
+    .section4__recomm__recommandation p {
+      text-align: justify; }
 
 body {
   margin: 0;
