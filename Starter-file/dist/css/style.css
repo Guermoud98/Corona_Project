@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px 50px;
-  background-image: url(/Design/Assets/SVG/Mergedbar-53.svg);
+  background-image: url(/Design/Assets/png/Mergedbar-53.png);
   height: 10vh; }
   .header__lists {
     display: flex;
@@ -59,6 +59,15 @@
       background-color: #1078AD;
       font-weight: bold;
       border-radius: 5px; }
+
+.section3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px auto;
+  width: 38vw;
+  text-align: center;
+  font-size: 20px; }
 
 body {
   margin: 0;
