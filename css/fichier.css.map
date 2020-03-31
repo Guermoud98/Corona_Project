@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../Starter-file/sass/fichier.scss"
-    ],
-    "names": [],
-    "file": "fichier.css"
-}

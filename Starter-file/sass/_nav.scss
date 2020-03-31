@@ -1,0 +1,28 @@
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        background-image: url(/Design/Assets/png/Mergedbar-61@2x.png);
+        height: 10vh;
+
+        &__lists {
+
+        display: flex;
+        list-style-type: none;
+
+        li {
+            padding: 0 20px;
+        }
+
+        a {
+
+            text-decoration: none;
+        }
+
+
+        }
+
+
+    }
