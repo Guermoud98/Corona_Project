@@ -1,0 +1,40 @@
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  &__content {
+    width: 40vw;
+    text-align: center;
+    
+
+    h2 {
+      color: #1078ad;
+      font-size: 20px;
+      text-align: center;
+      padding: 0 33px;
+
+    }
+
+    p {
+        color: #7F7F7F;
+        font-size: 17px;
+        line-height: 30px;
+        font-weight: bold;
+        width: 25vw;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    a {
+        color:white;
+        text-decoration: none;
+        border: 1px solid #1078AD;
+        padding: 6px 130px;
+        background-color: #1078AD;
+        font-weight: bold;
+    }
+    
+  }
+}

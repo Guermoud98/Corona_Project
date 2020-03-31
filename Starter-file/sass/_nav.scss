@@ -1,13 +1,10 @@
-
-
-
-
-    .header {
+@import 'variable';
+   .header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 12px 50px;
-        background-image: url(/Design/Assets/png/Mergedbar-61@2x.png);
+        background-image: url(/Design/Assets/SVG/Mergedbar-53.svg);
         height: 10vh;
 
         &__lists {
@@ -20,7 +17,7 @@
         }
         a {
             text-decoration: none;
-            color: black;
+            color: color(black);
         }
         }
     }
