@@ -78,19 +78,33 @@
 
 .section4 {
   background-color: #1078AD;
-  text-align: center;
-  margin-top: 20px;
-  height: 30vh; }
+  margin-top: 20px; }
   .section4 h1 {
+    text-align: center;
     color: #D0E5F0; }
   .section4__recomm {
     display: flex;
     justify-content: space-between;
-    margin: auto;
     align-items: center;
-    width: 70vw; }
-    .section4__recomm__recommandation p {
-      text-align: justify; }
+    line-height: 20px;
+    width: 80vw;
+    margin: auto; }
+  .section4 li {
+    list-style-type: none;
+    color: #FFFFFF;
+    font-size: 20px; }
+  .section4 a {
+    text-decoration: none; }
+  .section4__contact h3 {
+    color: #F4CF1B; }
+  .section4__contact span {
+    color: #1078AD;
+    background-color: #F4CF1B;
+    padding: 9px 15px;
+    border-radius: 5px; }
+  .section4__contact p {
+    color: #FFFFFF;
+    text-decoration: underline solid #F4CF1B; }
 
 body {
   margin: 0;
