@@ -1,3 +1,4 @@
+@import 'variable';
 .section2 {
   display: flex;
   justify-content: center;
@@ -10,7 +11,7 @@
     
 
     h2 {
-      color: #1078ad;
+      color: $eighth-color;
       font-size: 20px;
       text-align: center;
       padding: 0 33px;
@@ -18,7 +19,7 @@
     }
 
     p {
-        color: #7F7F7F;
+        color: $third-color;
         font-size: 17px;
         line-height: 30px;
         font-weight: bold;
@@ -28,11 +29,11 @@
     }
 
     a {
-        color:white;
+        color:$fourth-Color;
         text-decoration: none;
-        border: 1px solid #1078AD;
+        border: 1px solid $eighth-color;
         padding: 6px 130px;
-        background-color: #1078AD;
+        background-color: $eighth-color;
         font-weight: bold;
         border-radius: 5px;
     }

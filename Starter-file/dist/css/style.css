@@ -15,7 +15,19 @@
       padding: 0 20px; }
     .header__lists a {
       text-decoration: none;
-      color: color(black); }
+      color: #000000; }
+    .header__lists .header__list1 {
+      color: #000000;
+      font-weight: bolder; }
+    .header__lists .header__list2 {
+      color: #1078AD;
+      font-weight: bolder; }
+    .header__lists .header__list3 {
+      color: #1078AD;
+      font-weight: bolder;
+      border: 1px solid #1078AD;
+      padding: 1px 10px;
+      border-radius: 9px; }
 
 .section1 {
   line-height: 20px;
@@ -42,7 +54,7 @@
     width: 40vw;
     text-align: center; }
     .section2__content h2 {
-      color: #1078ad;
+      color: #1078AD;
       font-size: 20px;
       text-align: center;
       padding: 0 33px; }
@@ -55,7 +67,7 @@
       margin: 0 auto;
       margin-bottom: 10px; }
     .section2__content a {
-      color: white;
+      color: #FFFFFF;
       text-decoration: none;
       border: 1px solid #1078AD;
       padding: 6px 130px;
@@ -82,7 +94,7 @@
   background-color: #1078AD; }
   .section4 h1 {
     text-align: center;
-    color: #D0E5F0; }
+    color: #FFFFFF; }
   .section4__recomm {
     display: flex;
     justify-content: space-between;
@@ -100,21 +112,22 @@
     text-align: center; }
   .section4__contact span {
     color: #1078AD;
+    font-size: 17px;
+    font-weight: bolder;
     background-color: #F4CF1B;
     padding: 9px 15px;
     border-radius: 5px; }
   .section4__contact p {
-    color: #FFFFFF;
+    color: #D0E5F0;
     text-decoration: underline solid #F4CF1B; }
 
 .section5 {
-  background-color: #96c5dc;
+  background-color: #63c6f8;
   text-align: center;
   border-radius: 5px;
   padding: 1px 0; }
   .section5 h2 {
-    color: #1078AD;
-    padding: 10px; }
+    color: #1078AD; }
   .section5 p {
     color: white;
     background-color: #1078AD;

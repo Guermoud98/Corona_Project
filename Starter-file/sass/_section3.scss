@@ -1,10 +1,11 @@
+@import 'variable';
 .section3 {
     width: 40vw;
     margin-top: 10px;
     margin: auto;
     h2 {
         text-align: center;
-        color: #1078AD;
+        color: $eighth-color;
     }
     &__groups {
         display: flex;

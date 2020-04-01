@@ -1,9 +1,9 @@
-
+@import 'variable';
 .section4 {
-    background-color: #1078AD; 
+    background-color: $eighth-color; 
     h1 {
         text-align: center;
-        color:#D0E5F0;
+        color:$fourth-Color;
 
     }
 
@@ -18,7 +18,7 @@
 
     li {
         list-style-type: none;
-        color:#FFFFFF;
+        color:$fourth-Color;
         font-size: 27px;
         
        
@@ -34,21 +34,24 @@
     &__contact {
 
         h3 {
-            color:#F4CF1B;
+            color:$first-color;
             text-align: center;
         }
 
         span {
-            color:#1078AD;
-            background-color:#F4CF1B ;
+            color:$eighth-color;
+            font-size: 17px;
+            font-weight: bolder;
+            background-color: $first-color ;
             padding: 9px 15px;
             border-radius: 5px;
+            
         }
 
         p {
 
-            color:#FFFFFF;
-            text-decoration: underline solid #F4CF1B ;
+            color: $seventh-color;
+            text-decoration: underline solid $first-color ;
         }
     }
 }

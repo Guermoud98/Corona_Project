@@ -6,7 +6,6 @@
         padding: 12px 50px;
         background-image: url(/Design/Assets/png/Mergedbar-53.png);
         height: 6vh;
-
         img {
             width:  4vw;
             margin-top: 10px;
@@ -16,13 +15,32 @@
 
         display: flex;
         list-style-type: none;
+        
+
+        
 
         li {
             padding: 0 20px;
         }
         a {
             text-decoration: none;
-            color: color(black);
+            color: $fifth-color;
+        }
+        .header__list1 {
+            color:$fifth-color;
+            font-weight: bolder;
+        }
+        .header__list2 {
+            color: $eighth-color;
+            font-weight: bolder;
+        }
+        .header__list3{
+            color:$eighth-color ;
+            font-weight: bolder;
+            border: 1px solid $eighth-color ;
+            padding: 1px 10px ;
+            border-radius: 9px;  
         }
         }
+      
     }
