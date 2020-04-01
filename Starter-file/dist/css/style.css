@@ -61,7 +61,7 @@
       border-radius: 5px; }
 
 .section3 {
-  width: 30vw;
+  width: 40vw;
   margin-top: 10px;
   margin: auto; }
   .section3 h2 {
@@ -92,9 +92,11 @@
   .section4 li {
     list-style-type: none;
     color: #FFFFFF;
-    font-size: 20px; }
+    font-size: 27px;
+    line-height: 37px; }
   .section4 a {
-    text-decoration: none; }
+    text-decoration: none;
+    line-height: 20px; }
   .section4__contact h3 {
     color: #F4CF1B; }
   .section4__contact span {
@@ -111,7 +113,7 @@
   text-align: center;
   border-radius: 5px;
   height: 30vh; }
-  .section5 h3 {
+  .section5 h2 {
     padding: 5px 0;
     color: #1078AD; }
   .section5 p {
@@ -121,9 +123,28 @@
     width: 20vw;
     margin: auto;
     margin-top: 10px;
-    border-radius: 5px; }
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold; }
   .section5 img {
     margin-top: -10px; }
+
+.footer {
+  text-align: center;
+  background-color: white;
+  margin: auto; }
+  .footer__lists {
+    display: flex;
+    justify-content: space-around; }
+    .footer__lists .footer__middle h2 {
+      color: #1078AD;
+      font-weight: bolder; }
+    .footer__lists .footer__middle h4 {
+      color: #369D53; }
+    .footer__lists p {
+      width: 30vw; }
+    .footer__lists .footer__left li {
+      color: black; }
 
 body {
   margin: 0;
