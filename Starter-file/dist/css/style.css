@@ -78,7 +78,8 @@
 
 .section4 {
   background-color: #1078AD;
-  margin-top: 20px; }
+  margin-top: 20px;
+  height: 66vh; }
   .section4 h1 {
     text-align: center;
     color: #D0E5F0; }
@@ -112,7 +113,7 @@
   background-color: #96C5DC;
   text-align: center;
   border-radius: 5px;
-  height: 30vh; }
+  height: 33vh; }
   .section5 h2 {
     padding: 5px 0;
     color: #1078AD; }
@@ -122,7 +123,6 @@
     background-color: #1078AD;
     width: 20vw;
     margin: auto;
-    margin-top: 10px;
     border-radius: 3px;
     cursor: pointer;
     font-weight: bold; }
@@ -130,23 +130,48 @@
     margin-top: -10px; }
 
 .footer {
+  margin-top: 10px;
   text-align: center;
-  background-color: white;
-  margin: auto; }
+  background-color: white; }
   .footer__lists {
     display: flex;
     justify-content: space-around; }
     .footer__lists .footer__middle h2 {
       color: #1078AD;
-      font-weight: bolder; }
+      font-weight: bold;
+      font-size: 17px; }
     .footer__lists .footer__middle h4 {
-      color: #369D53; }
+      color: #369D53;
+      font-weight: bolder;
+      font-size: 14px; }
+    .footer__lists .footer__middle p {
+      color: black;
+      font-weight: bolder; }
     .footer__lists p {
-      width: 30vw; }
+      width: 30vw;
+      color: #7F7F7F;
+      font-size: 15px; }
     .footer__lists .footer__left li {
-      color: black; }
+      color: black;
+      list-style-type: none; }
+    .footer__lists .footer__left .footer__left1 {
+      padding: 0px 14px;
+      font-size: 16px;
+      border-radius: 10px;
+      border: 1px solid #1078AD;
+      font-weight: bolder; }
+      .footer__lists .footer__left .footer__left1 .footer__glob {
+        color: #F4CF1B; }
+    .footer__lists .footer__left .footer__left2 {
+      font-size: 16px;
+      color: #1078AD;
+      font-weight: bold; }
+    .footer__lists .footer__left .footer__left3 {
+      font-weight: bold;
+      font-size: 16px; }
 
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif; }
