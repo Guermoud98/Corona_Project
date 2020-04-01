@@ -5,7 +5,12 @@
         align-items: center;
         padding: 12px 50px;
         background-image: url(/Design/Assets/png/Mergedbar-53.png);
-        height: 9vh;
+        height: 6vh;
+
+        img {
+            width:  4vw;
+            margin-top: 10px;
+        }
 
         &__lists {
 

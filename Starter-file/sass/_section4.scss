@@ -1,11 +1,6 @@
 
 .section4 {
-    background-color: #1078AD;
-    margin-top: 20px;
-    height: 66vh;
-    
-   
-
+    background-color: #1078AD; 
     h1 {
         text-align: center;
         color:#D0E5F0;
@@ -16,7 +11,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        line-height: 20px;
         width: 80vw;
         margin: auto;
         
@@ -26,7 +20,7 @@
         list-style-type: none;
         color:#FFFFFF;
         font-size: 27px;
-        line-height: 37px;
+        
        
        
         
@@ -34,13 +28,14 @@
 
     a {
         text-decoration: none;
-        line-height: 20px;
+        
     }
 
     &__contact {
 
         h3 {
             color:#F4CF1B;
+            text-align: center;
         }
 
         span {

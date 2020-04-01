@@ -1,7 +1,7 @@
 
 
 .footer {
-    margin-top: 10px;
+    
     text-align: center;
     background-color: white;
     &__lists {
@@ -52,9 +52,12 @@
             border-radius: 10px;
             border: 1px solid #1078AD;
             font-weight: bolder;
+            cursor: pointer;
 
             .footer__glob {
                 color:#F4CF1B;
+                
+
             }
 
             
@@ -66,11 +69,15 @@
               font-size: 16px;
               color: #1078AD;
               font-weight: bold;
+              cursor: pointer;
+
             }
 
             .footer__left3 {
                 font-weight: bold;
                 font-size: 16px;
+                cursor: pointer;
+
               }
 
 

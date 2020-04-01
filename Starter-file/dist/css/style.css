@@ -4,7 +4,10 @@
   align-items: center;
   padding: 12px 50px;
   background-image: url(/Design/Assets/png/Mergedbar-53.png);
-  height: 9vh; }
+  height: 6vh; }
+  .header img {
+    width: 4vw;
+    margin-top: 10px; }
   .header__lists {
     display: flex;
     list-style-type: none; }
@@ -73,13 +76,10 @@
     align-items: center;
     font-size: 18px;
     font-weight: bold;
-    text-align: center;
-    padding: 0 20px; }
+    text-align: center; }
 
 .section4 {
-  background-color: #1078AD;
-  margin-top: 20px;
-  height: 66vh; }
+  background-color: #1078AD; }
   .section4 h1 {
     text-align: center;
     color: #D0E5F0; }
@@ -87,19 +87,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    line-height: 20px;
     width: 80vw;
     margin: auto; }
   .section4 li {
     list-style-type: none;
     color: #FFFFFF;
-    font-size: 27px;
-    line-height: 37px; }
+    font-size: 27px; }
   .section4 a {
-    text-decoration: none;
-    line-height: 20px; }
+    text-decoration: none; }
   .section4__contact h3 {
-    color: #F4CF1B; }
+    color: #F4CF1B;
+    text-align: center; }
   .section4__contact span {
     color: #1078AD;
     background-color: #F4CF1B;
@@ -110,27 +108,24 @@
     text-decoration: underline solid #F4CF1B; }
 
 .section5 {
-  background-color: #96C5DC;
+  background-color: #96c5dc;
   text-align: center;
   border-radius: 5px;
-  height: 33vh; }
+  padding: 1px 0; }
   .section5 h2 {
-    padding: 5px 0;
-    color: #1078AD; }
+    color: #1078AD;
+    padding: 10px; }
   .section5 p {
     color: white;
-    padding: 2px 20px;
     background-color: #1078AD;
     width: 20vw;
     margin: auto;
     border-radius: 3px;
     cursor: pointer;
-    font-weight: bold; }
-  .section5 img {
-    margin-top: -10px; }
+    font-weight: bold;
+    margin-bottom: 20px; }
 
 .footer {
-  margin-top: 10px;
   text-align: center;
   background-color: white; }
   .footer__lists {
@@ -159,16 +154,19 @@
       font-size: 16px;
       border-radius: 10px;
       border: 1px solid #1078AD;
-      font-weight: bolder; }
+      font-weight: bolder;
+      cursor: pointer; }
       .footer__lists .footer__left .footer__left1 .footer__glob {
         color: #F4CF1B; }
     .footer__lists .footer__left .footer__left2 {
       font-size: 16px;
       color: #1078AD;
-      font-weight: bold; }
+      font-weight: bold;
+      cursor: pointer; }
     .footer__lists .footer__left .footer__left3 {
       font-weight: bold;
-      font-size: 16px; }
+      font-size: 16px;
+      cursor: pointer; }
 
 body {
   margin: 0;
