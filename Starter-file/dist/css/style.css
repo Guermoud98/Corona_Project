@@ -106,6 +106,25 @@
     color: #FFFFFF;
     text-decoration: underline solid #F4CF1B; }
 
+.section5 {
+  background-color: #96C5DC;
+  text-align: center;
+  border-radius: 5px;
+  height: 30vh; }
+  .section5 h3 {
+    padding: 5px 0;
+    color: #1078AD; }
+  .section5 p {
+    color: white;
+    padding: 2px 20px;
+    background-color: #1078AD;
+    width: 20vw;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px; }
+  .section5 img {
+    margin-top: -10px; }
+
 body {
   margin: 0;
   padding: 0;
