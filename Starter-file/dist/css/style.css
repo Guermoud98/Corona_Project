@@ -141,6 +141,22 @@
     font-weight: bold;
     text-align: center; }
 
+.transmissions h1 {
+  text-align: center;
+  color: #1078AD;
+  font-size: 25px; }
+
+.transmissions__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 70vw;
+  margin: auto; }
+  .transmissions__content p {
+    color: #1A519E;
+    font-weight: bolder; }
+
 .section4 {
   background-color: #1078AD; }
   .section4 h1 {
