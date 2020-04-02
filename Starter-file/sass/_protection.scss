@@ -1,0 +1,30 @@
+@import 'variable';
+
+.protection {
+    h1 {
+        text-align: center;
+        margin: 20px auto;
+        max-width: 30%;
+       }
+
+       .protection__images {
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           width: 60vw;
+           margin: auto;
+
+           p {
+               text-align: center;
+               color: $tenth-color;
+               font-weight: bolder;
+               font-size: 16px;
+           }
+
+           .protection__group1{
+               text-align: center;
+             
+           }
+       }
+
+}
