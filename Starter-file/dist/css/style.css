@@ -78,6 +78,24 @@
   color: #1A519E;
   font-weight: bolder; }
 
+.informations {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #D0E5F0; }
+  .informations__leftside .informations__title {
+    color: #1078AD;
+    font-weight: bolder; }
+  .informations__leftside .informations__para1 {
+    color: #1A519E;
+    font-weight: bolder; }
+  .informations__link {
+    color: white;
+    font-weight: bolder;
+    padding: 2px 14px;
+    background-color: #1078AD;
+    border-radius: 4px; }
+
 .section2 {
   display: flex;
   justify-content: center;
