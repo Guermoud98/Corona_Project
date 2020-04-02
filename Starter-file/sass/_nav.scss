@@ -1,8 +1,7 @@
 @import 'variable';
+@import 'mixin';
    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+       @include flex (space-between,center);
         padding: 12px 50px;
         background-image: url(/Design/Assets/png/Mergedbar-53.png);
         height: 6vh;
@@ -12,13 +11,9 @@
         }
 
         &__lists {
-
+        @include flex(none,none);
         display: flex;
         list-style-type: none;
-        
-
-        
-
         li {
             padding: 0 20px;
         }

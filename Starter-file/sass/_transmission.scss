@@ -1,7 +1,6 @@
+@import 'variable';
+@import 'mixin';
 .transmissions {
-    
-
-
 h1 {
     text-align: center;
     color: $eighth-color;
@@ -9,10 +8,7 @@ h1 {
 }  
 
 &__content {
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include flex (space-around,center);
     text-align: center;
     width: 70vw;
     margin: auto;

@@ -1,22 +1,22 @@
 @import 'variable';
+@import 'mixin';
+
 .footer {
-    
+
     text-align: center;
     background-color: white;
+
     &__lists {
-        display: flex;
-        justify-content: space-around;
-
-
-       
+        @include flex (space-around,none);
         .footer__middle {
             h2 {
-                color:#1078AD;
+                color: #1078AD;
                 font-weight: bold;
                 font-size: 17px;
                 cursor: pointer;
 
             }
+
             h4 {
                 color: #369D53;
                 font-weight: bolder;
@@ -29,12 +29,12 @@
                 font-weight: bolder;
                 cursor: pointer;
             }
-            
+
         }
 
         p {
             width: 30vw;
-            color:#7F7F7F;
+            color: #7F7F7F;
             font-size: 15px;
             cursor: pointer;
 
@@ -42,38 +42,39 @@
 
         .footer__left {
 
-            
+
 
 
             li {
                 color: black;
                 list-style-type: none;
             }
-           .footer__left1 {
-            padding: 0px 14px;
-            font-size: 16px;
-            border-radius: 10px;
-            border: 1px solid #1078AD;
-            font-weight: bolder;
-            cursor: pointer;
 
-            .footer__glob {
-                color:#F4CF1B;
-                
+            .footer__left1 {
+                padding: 0px 14px;
+                font-size: 16px;
+                border-radius: 10px;
+                border: 1px solid #1078AD;
+                font-weight: bolder;
+                cursor: pointer;
 
-            }
+                .footer__glob {
+                    color: #F4CF1B;
 
-            
 
-                
+                }
+
+
+
+
             }
 
             .footer__left2 {
-              font-size: 16px;
-              color: #1078AD;
-              font-weight: bold;
-              cursor: pointer;
-              text-decoration: none;
+                font-size: 16px;
+                color: #1078AD;
+                font-weight: bold;
+                cursor: pointer;
+                text-decoration: none;
 
             }
 
@@ -84,7 +85,7 @@
                 text-decoration: none;
                 color: black;
 
-              }
+            }
 
 
         }

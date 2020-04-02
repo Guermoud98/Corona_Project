@@ -10,6 +10,9 @@
     margin-top: 10px; }
   .header__lists {
     display: flex;
+    justify-content: none;
+    align-items: none;
+    display: flex;
     list-style-type: none; }
     .header__lists li {
       padding: 0 20px; }
@@ -210,7 +213,8 @@
   background-color: white; }
   .footer__lists {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    align-items: none; }
     .footer__lists .footer__middle h2 {
       color: #1078AD;
       font-weight: bold;
