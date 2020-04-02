@@ -5,13 +5,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #D0E5F0;
+    background-color: $seventh-color;
 
 
 &__leftside {
 
     .informations__title {
-        color:#1078AD;
+        color:$eighth-color;
         font-weight: bolder;
         
     }
