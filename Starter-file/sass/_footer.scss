@@ -4,13 +4,13 @@
 .footer {
 
     text-align: center;
-    background-color: white;
+    background-color: $fourth-Color;
 
-    &__lists {
+&__lists {
         @include flex (space-around,none);
         .footer__middle {
             h2 {
-                color: #1078AD;
+                color: $eighth-color;
                 font-weight: bold;
                 font-size: 17px;
                 cursor: pointer;
@@ -18,14 +18,14 @@
             }
 
             h4 {
-                color: #369D53;
+                color: $sixth-color;
                 font-weight: bolder;
                 font-size: 14px;
                 cursor: pointer;
             }
 
             p {
-                color: black;
+                color: $fifth-color;
                 font-weight: bolder;
                 cursor: pointer;
             }
@@ -34,62 +34,36 @@
 
         p {
             width: 30vw;
-            color: #7F7F7F;
+            color: $third-color;
             font-size: 15px;
             cursor: pointer;
 
         }
 
         .footer__left {
-
-
-
-
             li {
-                color: black;
+                color: $fifth-color;
                 list-style-type: none;
+                font-weight: bold;
+                a {
+                    text-decoration: none;
+                    color:$tenth-color;
+                    font-weight: bolder;
+                }
             }
 
             .footer__left1 {
                 padding: 0px 14px;
                 font-size: 16px;
                 border-radius: 10px;
-                border: 1px solid #1078AD;
+                border: 1px solid $eighth-color;
                 font-weight: bolder;
                 cursor: pointer;
 
                 .footer__glob {
-                    color: #F4CF1B;
-
-
-                }
-
-
-
-
+                    color: $first-color;   
             }
-
-            .footer__left2 {
-                font-size: 16px;
-                color: #1078AD;
-                font-weight: bold;
-                cursor: pointer;
-                text-decoration: none;
-
-            }
-
-            .footer__left3 {
-                font-weight: bold;
-                font-size: 16px;
-                cursor: pointer;
-                text-decoration: none;
-                color: black;
-
-            }
-
-
         }
     }
-
-
+}
 }
