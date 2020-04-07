@@ -6,7 +6,7 @@
   background-image: url(/Design/Assets/png/Mergedbar-53.png);
   height: 6vh; }
   .header img {
-    width: 4vw;
+    width: 50px;
     margin-top: 10px; }
   .header__lists {
     display: flex;
@@ -103,31 +103,40 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px; }
-  .section2__content {
-    width: 40vw;
+  margin-top: 20px;
+  text-align: center;
+  margin: auto;
+  width: 85vw; }
+  .section2__content h2 {
+    color: #1078AD;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 33px; }
+  .section2__content p {
+    color: #7F7F7F;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 0 30px; }
+  .section2__content a {
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #1078AD;
+    padding: 6px 130px;
+    background-color: #1078AD;
+    font-weight: bold;
+    border-radius: 5px; }
+
+@media only screen and (max-width: 768px) {
+  .section2 {
+    display: block;
     text-align: center; }
-    .section2__content h2 {
-      color: #1078AD;
-      font-size: 20px;
-      text-align: center;
-      padding: 0 33px; }
     .section2__content p {
-      color: #7F7F7F;
-      font-size: 17px;
-      line-height: 30px;
-      font-weight: bold;
-      width: 25vw;
-      margin: 0 auto;
-      margin-bottom: 10px; }
-    .section2__content a {
-      color: #FFFFFF;
-      text-decoration: none;
-      border: 1px solid #1078AD;
-      padding: 6px 130px;
-      background-color: #1078AD;
-      font-weight: bold;
-      border-radius: 5px; }
+      padding: 0 100px; }
+    .section2 .section2__img1 {
+      width: 400px; } }
 
 .section3 {
   width: 40vw;
