@@ -67,3 +67,14 @@
     }
 }
 }
+
+@media only screen and (max-width:768px) {
+
+    .footer__lists {
+        justify-content: space-evenly;
+    .footer__parag {
+        display: none;
+    }
+}
+
+}

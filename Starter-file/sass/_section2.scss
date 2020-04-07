@@ -2,9 +2,9 @@
 @import 'mixin';
 .section2 {
   @include flex (center,center);
-  margin-top: 20px;
+ 
   text-align: center;
-  margin: auto;
+  margin: 20px auto;
   width: 85vw;
 
   &__content {

@@ -19,3 +19,16 @@
     }
  
 }
+
+@media only screen and (max-width:768px) {
+    .section5 {
+
+        h2 {
+            font-size: 18px;
+        }
+        p {
+           width:34vw;
+        }
+
+    }
+}
