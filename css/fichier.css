@@ -59,6 +59,15 @@
   border-radius: 9px;
 }
 
+@media only screen and (max-width: 375px) {
+  .header {
+    padding: 12px 17px;
+  }
+  .header .header__lists li {
+    padding: 0 9px;
+  }
+}
+
 .section1 {
   line-height: 20px;
   background-color: #F4CF1B;
@@ -70,14 +79,18 @@
   width: 45vw;
   margin: 0 auto;
   text-align: center;
-  margin-top: -10px;
   color: #1078AD;
 }
 
 .section1__title {
   text-align: center;
-  margin-top: -2px;
   font-size: 17px;
+}
+
+@media only screen and (max-width: 375px) {
+  .section1 .section1__parag {
+    width: 90vw;
+  }
 }
 
 .protection h1 {
@@ -214,6 +227,22 @@
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .section2 .section2__img1 {
+    width: 250px;
+  }
+  .section2__content h2 {
+    font-size: 17px;
+  }
+  .section2__content a {
+    padding: 2px 50px;
+  }
+  .section2__content p {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+}
+
 .section3 {
   width: 40vw;
   margin-top: 10px;
@@ -246,6 +275,18 @@
   }
   .section3__groups {
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .section3 {
+    width: 84vw;
+  }
+  .section3 h2 {
+    font-size: 17px;
+  }
+  .section3__groups {
+    display: block;
   }
 }
 
@@ -332,12 +373,25 @@
     font-size: 17px;
   }
   .section4__contact span {
-    color: #1078AD;
     font-size: 17px;
-    font-weight: bolder;
-    background-color: #F4CF1B;
     padding: 7px 10px;
-    border-radius: 5px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .section4 {
+    padding: 10px 0;
+  }
+  .section4 h1 {
+    font-size: 17px;
+  }
+  .section4__recomm {
+    display: block;
+    text-align: center;
+    width: 100vw;
+  }
+  .section4__recomm ul {
+    padding-left: 0;
   }
 }
 
@@ -448,6 +502,27 @@
   }
   .footer__lists .footer__parag {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .footer__lists .footer__middle {
+    margin-top: 7px;
+    font-weight: 10px;
+  }
+  .footer__lists .footer__middle h2 {
+    font-size: 13px;
+  }
+  .footer__lists .footer__middle h4 {
+    font-size: 13px;
+  }
+  .footer__lists .footer__middle p {
+    font-size: 13px;
+  }
+  .footer__lists .footer__left .footer__left1 {
+    padding: 3px 13px;
+    font-size: 13px;
+    border-radius: 5px;
   }
 }
 

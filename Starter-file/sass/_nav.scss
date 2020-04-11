@@ -46,3 +46,16 @@
     }
 
 }
+
+@media only screen and (max-width:375px) {
+    .header {
+
+        padding: 12px 17px;
+
+        .header__lists {
+            li {
+                padding: 0 9px;
+            }
+        }
+    }
+}

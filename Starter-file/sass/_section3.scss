@@ -33,3 +33,26 @@ h2 {
 }
 }
 
+//mobile 
+
+@media only screen and (max-width:375px) {
+
+    .section3 {
+        width: 84vw;
+
+        h2 {
+            font-size: 17px;
+        }
+&__groups {
+    display: block;
+}        
+  
+
+ 
+    }
+
+
+}
+
+
+

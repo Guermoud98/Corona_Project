@@ -49,7 +49,7 @@
         }
     }
 }
-
+//tab
 @media only screen and (max-width:768px) {
 
     .section4 {
@@ -72,18 +72,43 @@
 
             
 
-                span {
-                    color: #1078AD;
+                span {  
                     font-size: 17px;
-                    font-weight: bolder;
-                    background-color: #F4CF1B;
                     padding: 7px 10px;
-                    border-radius: 5px;
+                    
 
                 
 
             }
 
         }
+    }
+}
+
+//mobile 
+
+@media only screen and (max-width:375px) {
+    .section4 {
+
+        padding: 10px 0;
+        h1 {
+            font-size: 17px;
+        }
+&__recomm {
+    display: block;
+    text-align: center;
+    width: 100vw;
+   
+
+    ul {
+        padding-left: 0;
+        
+    
+    }
+}     
+
+// &__contact {
+   
+// }
     }
 }
