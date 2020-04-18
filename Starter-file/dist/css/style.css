@@ -64,6 +64,33 @@
     background-color: #1078AD;
     border-radius: 4px; }
 
+.test1__quest1 {
+  width: 40vw;
+  margin: auto;
+  font-size: 1.2em;
+  color: #787878;
+  margin-bottom: 30px;
+  text-align: left; }
+
+.test1__content {
+  text-align: left;
+  width: 60vw;
+  margin: auto; }
+  .test1__content .test1__info {
+    background-color: #F4CF1B;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 2px; }
+  .test1__content .test1__qstSuivante {
+    background-color: #1078AD;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px; }
+
 .section1 {
   line-height: 20px;
   background-color: #F4CF1B;
@@ -394,16 +421,6 @@
     padding: 3px 13px;
     font-size: 13px;
     border-radius: 5px; } }
-
-.test1 {
-  width: 40vw;
-  margin: auto;
-  text-align: left;
-  font-size: 1.2em;
-  color: #787878; }
-  .test1__form input {
-    margin-bottom: 10px;
-    font-size: 1.2em; }
 
 body {
   margin: 0;
