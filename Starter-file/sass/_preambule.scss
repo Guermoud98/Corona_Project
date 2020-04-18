@@ -1,12 +1,13 @@
 .preambule {
 
-text-align: center;
+    text-align: center;
+   display: none;
 
 
     &__content {
 
         width: 80vw;
-        margin: 10px auto 20px auto ;
+        margin: 10px auto 20px auto;
         background-color: $ninth-color;
         border-radius: 5px;
         padding-bottom: 20px;
@@ -15,14 +16,23 @@ text-align: center;
         .preambule__title {
             color: $eighth-color;
             margin: 0;
-           
+
         }
 
         .preambule__parag {
             width: 70vw;
             margin: auto;
+
             
-            
+
+
+        }
+        .preambule__border {
+            border-bottom: 2px solid #F4CF1B;
+            width: 20vw;
+           margin: 10px auto;
+          
+
         }
     }
 
@@ -34,7 +44,7 @@ text-align: center;
         border-radius: 4px;
     }
 
-    
+
 
 
 

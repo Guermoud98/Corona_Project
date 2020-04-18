@@ -1,0 +1,16 @@
+.test1 {
+    width: 40vw;
+    margin: auto;
+    text-align: left;
+    font-size: 1.2em;
+    color: #787878;
+
+    &__form {
+      
+
+        input {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+    }
+}

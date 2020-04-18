@@ -39,7 +39,8 @@
       padding: 0 9px; } }
 
 .preambule {
-  text-align: center; }
+  text-align: center;
+  display: none; }
   .preambule__content {
     width: 80vw;
     margin: 10px auto 20px auto;
@@ -52,6 +53,10 @@
     .preambule__content .preambule__parag {
       width: 70vw;
       margin: auto; }
+    .preambule__content .preambule__border {
+      border-bottom: 2px solid #F4CF1B;
+      width: 20vw;
+      margin: 10px auto; }
   .preambule__link {
     text-decoration: none;
     color: #FFFFFF;
@@ -389,6 +394,16 @@
     padding: 3px 13px;
     font-size: 13px;
     border-radius: 5px; } }
+
+.test1 {
+  width: 40vw;
+  margin: auto;
+  text-align: left;
+  font-size: 1.2em;
+  color: #787878; }
+  .test1__form input {
+    margin-bottom: 10px;
+    font-size: 1.2em; }
 
 body {
   margin: 0;
