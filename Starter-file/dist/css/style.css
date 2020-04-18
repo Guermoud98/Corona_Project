@@ -38,6 +38,27 @@
     .header .header__lists li {
       padding: 0 9px; } }
 
+.preambule {
+  text-align: center; }
+  .preambule__content {
+    width: 80vw;
+    margin: 10px auto 20px auto;
+    background-color: #96C5DC;
+    border-radius: 5px;
+    padding-bottom: 20px; }
+    .preambule__content .preambule__title {
+      color: #1078AD;
+      margin: 0; }
+    .preambule__content .preambule__parag {
+      width: 70vw;
+      margin: auto; }
+  .preambule__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 45px;
+    background-color: #1078AD;
+    border-radius: 4px; }
+
 .section1 {
   line-height: 20px;
   background-color: #F4CF1B;

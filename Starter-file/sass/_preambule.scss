@@ -1,0 +1,41 @@
+.preambule {
+
+text-align: center;
+
+
+    &__content {
+
+        width: 80vw;
+        margin: 10px auto 20px auto ;
+        background-color: $ninth-color;
+        border-radius: 5px;
+        padding-bottom: 20px;
+
+
+        .preambule__title {
+            color: $eighth-color;
+            margin: 0;
+           
+        }
+
+        .preambule__parag {
+            width: 70vw;
+            margin: auto;
+            
+            
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $fourth-Color;
+        padding: 10px 45px;
+        background-color: $eighth-color;
+        border-radius: 4px;
+    }
+
+    
+
+
+
+}
