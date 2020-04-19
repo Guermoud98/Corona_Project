@@ -107,13 +107,13 @@
   <div class="test2">
     <div class="test2__content">
       <p clas="test2__parag">Ces derniers jours, avez-vous une toux ou une augmentation de votre toux habituelle ?</p>
-      <input type="number" name="step_value" aria-describedly="text-suffix" value-min="34" value-max="42"
+      <input class="test2__input" type="number" name="step_value" aria-describedly="text-suffix" value-min = "34" value-max ="42"
         placeholder="37,0" required>
       <div class="test2__degre">degrés</div>
     </div>
     <div class="test2__btns">
-      <button class="test2__btn"> la question précédante </button>
-      <button class="test2__btn"> la question suivante </button>
+      <button id = "pre" class="test2__btn"> la question précédante </button>
+      <button id ="suiv" class="test2__btn"> la question suivante </button>
     </div>
 
   </div>
@@ -126,9 +126,9 @@
       <p class="test3__parag">Ces derniers jours, avez-vous noté une forte diminution ou perte de votre goût ou de votre
         odorat ?</p>
       <form class="test3__form">
-        <input type="radio">
+        <input type="radio" name="btn1">
         <label>Oui</label><br>
-        <input type="radio">
+        <input type="radio" name="btn1">
         <label>Non</label><br>
       </form>
     </div>
@@ -237,6 +237,8 @@
       <button class="test8__btn"> la question suivante </button>
     </div>
   </div>
+
+  <!-- END test8 -->
 
 
 

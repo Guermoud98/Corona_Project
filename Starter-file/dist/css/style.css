@@ -130,125 +130,154 @@
 
 /*-------------------------------------------------------- END test2---------------------------------------------------------------------------*/
 /*--------------------------------------------------------test3---------------------------------------------------------------------------*/
-.test3__quest3 {
-  width: 40vw;
-  margin: auto;
-  font-size: 1.2em;
-  color: #787878;
-  margin-bottom: 40px; }
-
-.test3__btns {
-  width: 65vw;
-  margin: auto;
-  display: flex;
-  justify-content: space-around; }
-  .test3__btns .test3__btn {
-    background-color: #1078AD;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 2px; }
+.test3 {
+  display: none; }
+  .test3__quest3 {
+    width: 40vw;
+    margin: auto;
+    font-size: 1.2em;
+    color: #787878;
+    margin-bottom: 40px; }
+  .test3__btns {
+    width: 65vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; }
+    .test3__btns .test3__btn {
+      background-color: #1078AD;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 2px; }
 
 /*-------------------------------------------------------- END test3---------------------------------------------------------------------------*/
 /*--------------------------------------------------------test4---------------------------------------------------------------------------*/
-.test4__quest4 {
-  width: 40vw;
-  margin: auto;
-  font-size: 1.2em;
-  color: #787878;
-  margin-bottom: 40px; }
-
-.test4__btns {
-  width: 65vw;
-  margin: auto;
-  display: flex;
-  justify-content: space-around; }
-  .test4__btns .test4__btn {
-    background-color: #1078AD;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 2px; }
+.test4 {
+  display: none; }
+  .test4__quest4 {
+    width: 40vw;
+    margin: auto;
+    font-size: 1.2em;
+    color: #787878;
+    margin-bottom: 40px; }
+  .test4__btns {
+    width: 65vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; }
+    .test4__btns .test4__btn {
+      background-color: #1078AD;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 2px; }
 
 /*-------------------------------------------------------- END test4---------------------------------------------------------------------------*/
 /*--------------------------------------------------------test5---------------------------------------------------------------------------*/
-.test5__quest5 {
-  width: 40vw;
-  margin: auto;
-  font-size: 1.2em;
-  color: #787878;
-  margin-bottom: 40px; }
-
-.test5__btns {
-  width: 65vw;
-  margin: auto;
-  display: flex;
-  justify-content: space-around; }
-  .test5__btns .test5__btn {
-    background-color: #1078AD;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 2px; }
+.test5 {
+  display: none; }
+  .test5__quest5 {
+    width: 40vw;
+    margin: auto;
+    font-size: 1.2em;
+    color: #787878;
+    margin-bottom: 40px; }
+  .test5__btns {
+    width: 65vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; }
+    .test5__btns .test5__btn {
+      background-color: #1078AD;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 2px; }
 
 /*-------------------------------------------------------- END test5---------------------------------------------------------------------------*/
 /*--------------------------------------------------------test6---------------------------------------------------------------------------*/
-.test6__quest6 {
-  width: 40vw;
-  margin: auto;
-  font-size: 1.2em;
-  color: #787878;
-  margin-bottom: 40px; }
-
-.test6__btns {
-  width: 65vw;
-  margin: auto;
-  display: flex;
-  justify-content: space-around; }
-  .test6__btns .test6__btn {
-    background-color: #1078AD;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 2px; }
+.test6 {
+  display: none; }
+  .test6__quest6 {
+    width: 40vw;
+    margin: auto;
+    font-size: 1.2em;
+    color: #787878;
+    margin-bottom: 40px; }
+  .test6__btns {
+    width: 65vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; }
+    .test6__btns .test6__btn {
+      background-color: #1078AD;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 2px; }
 
 /*--------------------------------------------------------END test6---------------------------------------------------------------------------*/
 /*--------------------------------------------------------test7---------------------------------------------------------------------------*/
-.test7__quest7 {
-  width: 40vw;
-  margin: auto;
-  font-size: 1.2em;
-  color: #787878;
-  margin-bottom: 40px; }
+.test7 {
+  display: none; }
+  .test7__quest7 {
+    width: 40vw;
+    margin: auto;
+    font-size: 1.2em;
+    color: #787878;
+    margin-bottom: 40px; }
+  .test7__btns {
+    width: 65vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; }
+    .test7__btns .test7__btn {
+      background-color: #1078AD;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 2px; }
 
-.test7__btns {
-  width: 65vw;
-  margin: auto;
-  display: flex;
-  justify-content: space-around; }
-  .test7__btns .test7__btn {
-    background-color: #1078AD;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 2px; }
+/*--------------------------------------------------------END test7---------------------------------------------------------------------------*/
+/*-------------------------------------------------------- test8---------------------------------------------------------------------------*/
+.test8 {
+  display: none; }
+  .test8__quest8 {
+    width: 40vw;
+    margin: auto;
+    font-size: 1.2em;
+    color: #787878;
+    margin-bottom: 40px; }
+  .test8__btns {
+    width: 65vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; }
+    .test8__btns .test8__btn {
+      background-color: #1078AD;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 2px; }
 
-/*--------------------------------------------------------END test6---------------------------------------------------------------------------*/
 .section1 {
   line-height: 20px;
   background-color: #F4CF1B;
