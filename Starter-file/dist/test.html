@@ -18,8 +18,8 @@
     </div>
     <div class="header__items">
       <ul class="header__lists">
-        <li><a class="header__list1" href="#"> Conseil </a></li>
-        <li><a class="header__list2" href="./conseil.html"> Acceuil </a></li>
+        <li><a class="header__list1" href="/Starter-file/dist/conseil.html"> Conseil </a></li>
+        <li><a class="header__list2" href="/index.html"> Acceuil </a></li>
         <li><a class="header__list3" href="#"> عربي <i class="fas fa-globe"></i> </a> </li>
       </ul>
     </div>
@@ -107,13 +107,13 @@
   <div class="test2">
     <div class="test2__content">
       <p clas="test2__parag">Ces derniers jours, avez-vous une toux ou une augmentation de votre toux habituelle ?</p>
-      <input class="test2__input" type="number" name="step_value" aria-describedly="text-suffix" value-min = "34" value-max ="42"
-        placeholder="37,0" required>
-      <div class="test2__degre">degrés</div>
+      <input  class ="test2__input"  type="number" name="step_value" aria-describedby="text-suffix" min="34" max="42"
+        step="0.1" placeholder="37,0" required="">
+      <div id="text-suffix" class="test2__degre">degrés</div>
     </div>
     <div class="test2__btns">
-      <button id = "pre" class="test2__btn"> la question précédante </button>
-      <button id ="suiv" class="test2__btn"> la question suivante </button>
+      <button id="pre" class="test2__btn"> la question précédante </button>
+      <button id="suiv" class="test2__btn"> la question suivante </button>
     </div>
 
   </div>
@@ -147,9 +147,9 @@
       <p class="test4__parag">Ces derniers jours, avez-vous eu un mal de gorge et/ou des douleurs musculaires et/ou des
         courbatures inhabituelles ?</p>
       <form class="test4__form">
-        <input type="radio">
+        <input type="radio" name="input">
         <label>Oui</label><br>
-        <input type="radio">
+        <input type="radio" name="input">
         <label>Non</label><br>
       </form>
     </div>
@@ -168,9 +168,9 @@
       <p class="test5__parag">Ces dernières 24 heures, avez-vous de la diarrhée ?
         Avec au moins 3 selles molles.</p>
       <form class="test5__form">
-        <input type="radio">
+        <input type="radio" name="input">
         <label>Oui</label><br>
-        <input type="radio">
+        <input type="radio" name="input">
         <label>Non</label><br>
       </form>
     </div>
@@ -186,9 +186,9 @@
     <div class="test6__quest6">
       <p class="test6__parag">Ces derniers jours, avez-vous une fatigue inhabituelle ?</p>
       <form class="test6__form">
-        <input type="radio">
+        <input type="radio" name="input">
         <label>Oui</label><br>
-        <input type="radio">
+        <input type="radio" name="input">
         <label>Non</label><br>
       </form>
     </div>
@@ -205,9 +205,9 @@
       <p class="test7__parag">Depuis 24 heures ou plus, êtes-vous dans l'impossibilité de vous alimenter ou de boire ?
       </p>
       <form class="test7__form">
-        <input type="radio">
+        <input type="radio" name="input">
         <label>Oui</label><br>
-        <input type="radio">
+        <input type="radio" name="input">
         <label>Non</label><br>
       </form>
     </div>
@@ -226,9 +226,9 @@
         parlez ou faites un petit effort ?
       </p>
       <form class="test8__form">
-        <input type="radio">
+        <input type="radio" name="input">
         <label>Oui</label><br>
-        <input type="radio">
+        <input type="radio" name="input">
         <label>Non</label><br>
       </form>
     </div>
@@ -239,18 +239,6 @@
   </div>
 
   <!-- END test8 -->
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   <!-- Section4 -->

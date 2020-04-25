@@ -4,8 +4,8 @@
   "description": "C'est un projet pour valider les compétences C3N3 (C2N3).",
   "main": "index.js",
   "scripts": {
-    "compile": "node-sass Starter-file/sass/fichier.scss Starter-file/dist/css/style.css",
-    "watch": "node-sass Starter-file/sass/fichier.scss Starter-file/dist/css/style.css --watch"
+    "compile": "node-sass Starter-file/dist/sass/fichier.scss Starter-file/dist/css/style.css",
+    "watch": "node-sass Starter-file/dist/sass/fichier.scss Starter-file/dist/css/style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Guermoud98/Project_Corona/issues"
   },
-  "homepage": "https://github.com/Guermoud98/Project_Corona#readme"
+  "homepage": "https://github.com/Guermoud98/Project_Corona#readme",
+  "dependencies": {
+    "node-sass": "^4.14.0"
+  }
 }

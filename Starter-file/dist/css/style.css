@@ -67,40 +67,41 @@
 
 /* ----------------------------------------------------------- End preambule --------------------------------------------------------------- */
 /* ----------------------------------------------------------- test1 --------------------------------------------------------------- */
-.test1 {
-  display: none; }
-  .test1__quest1 {
-    width: 40vw;
-    margin: auto;
-    font-size: 1.2em;
-    color: #787878;
-    margin-bottom: 30px;
-    text-align: left; }
-  .test1__content {
-    text-align: left;
-    width: 50vw;
-    margin: auto; }
-    .test1__content .test1__info {
-      background-color: #F4CF1B;
-      color: black;
-      padding: 10px 10px;
-      border-radius: 2px; }
-    .test1__content .test1__qstSuivante {
-      background-color: #1078AD;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-decoration: none;
-      font-size: 16px;
-      cursor: pointer;
-      border-radius: 2px; }
+.test1__quest1 {
+  width: 50vw;
+  margin: auto;
+  font-size: 1.5em;
+  color: #787878;
+  margin-bottom: 30px;
+  text-align: left; }
+
+.test1__content {
+  text-align: left;
+  width: 60vw;
+  margin: auto;
+  font-size: 1.2em; }
+  .test1__content .test1__info {
+    background-color: #F4CF1B;
+    color: #000000;
+    padding: 10px 10px;
+    border-radius: 2px;
+    font-size: 1.2em; }
+  .test1__content .test1__qstSuivante {
+    background-color: #1078AD;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.4em;
+    cursor: pointer;
+    border-radius: 2px; }
 
 /* ----------------------------------------------------------- End test1--------------------------------------------------------------- */
 /* ----------------------------------------------------------- test2 --------------------------------------------------------------- */
 .test2__content {
-  width: 40vw;
+  width: 50vw;
   margin: auto;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: #787878;
   margin-bottom: 40px; }
   .test2__content input {
@@ -108,175 +109,171 @@
     padding: 6px 0;
     color: #1078AD;
     border: 3px solid #1078AD;
-    width: 15vw; }
+    width: 15vw;
+    font-size: 1.2em; }
   .test2__content .test2__degre {
     display: inline-block;
-    color: #1078AD; }
+    color: #1078AD;
+    font-size: 1.2em; }
 
 .test2__btns {
-  width: 65vw;
+  width: 75vw;
   margin: auto;
   display: flex;
   justify-content: space-around; }
   .test2__btns .test2__btn {
     background-color: #1078AD;
     border: none;
-    color: white;
+    color: #FFFFFF;
     padding: 15px 32px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.5em;
     cursor: pointer;
     border-radius: 2px; }
 
 /*-------------------------------------------------------- END test2---------------------------------------------------------------------------*/
 /*--------------------------------------------------------test3---------------------------------------------------------------------------*/
-.test3 {
-  display: none; }
-  .test3__quest3 {
-    width: 40vw;
-    margin: auto;
-    font-size: 1.2em;
-    color: #787878;
-    margin-bottom: 40px; }
-  .test3__btns {
-    width: 65vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-around; }
-    .test3__btns .test3__btn {
-      background-color: #1078AD;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-decoration: none;
-      font-size: 16px;
-      cursor: pointer;
-      border-radius: 2px; }
+.test3__quest3 {
+  width: 50vw;
+  margin: auto;
+  font-size: 1.5em;
+  color: #787878;
+  margin-bottom: 40px; }
+
+.test3__btns {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around; }
+  .test3__btns .test3__btn {
+    background-color: #1078AD;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 2px; }
 
 /*-------------------------------------------------------- END test3---------------------------------------------------------------------------*/
 /*--------------------------------------------------------test4---------------------------------------------------------------------------*/
-.test4 {
-  display: none; }
-  .test4__quest4 {
-    width: 40vw;
-    margin: auto;
-    font-size: 1.2em;
-    color: #787878;
-    margin-bottom: 40px; }
-  .test4__btns {
-    width: 65vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-around; }
-    .test4__btns .test4__btn {
-      background-color: #1078AD;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-decoration: none;
-      font-size: 16px;
-      cursor: pointer;
-      border-radius: 2px; }
+.test4__quest4 {
+  width: 50vw;
+  margin: auto;
+  font-size: 1.5em;
+  color: #787878;
+  margin-bottom: 40px; }
+
+.test4__btns {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around; }
+  .test4__btns .test4__btn {
+    background-color: #1078AD;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 2px; }
 
 /*-------------------------------------------------------- END test4---------------------------------------------------------------------------*/
 /*--------------------------------------------------------test5---------------------------------------------------------------------------*/
-.test5 {
-  display: none; }
-  .test5__quest5 {
-    width: 40vw;
-    margin: auto;
-    font-size: 1.2em;
-    color: #787878;
-    margin-bottom: 40px; }
-  .test5__btns {
-    width: 65vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-around; }
-    .test5__btns .test5__btn {
-      background-color: #1078AD;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-decoration: none;
-      font-size: 16px;
-      cursor: pointer;
-      border-radius: 2px; }
+.test5__quest5 {
+  width: 50vw;
+  margin: auto;
+  font-size: 1.5em;
+  color: #787878;
+  margin-bottom: 40px; }
+
+.test5__btns {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around; }
+  .test5__btns .test5__btn {
+    background-color: #1078AD;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 2px; }
 
 /*-------------------------------------------------------- END test5---------------------------------------------------------------------------*/
 /*--------------------------------------------------------test6---------------------------------------------------------------------------*/
-.test6 {
-  display: none; }
-  .test6__quest6 {
-    width: 40vw;
-    margin: auto;
-    font-size: 1.2em;
-    color: #787878;
-    margin-bottom: 40px; }
-  .test6__btns {
-    width: 65vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-around; }
-    .test6__btns .test6__btn {
-      background-color: #1078AD;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-decoration: none;
-      font-size: 16px;
-      cursor: pointer;
-      border-radius: 2px; }
+.test6__quest6 {
+  width: 50vw;
+  margin: auto;
+  font-size: 1.5em;
+  color: #787878;
+  margin-bottom: 40px; }
+
+.test6__btns {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around; }
+  .test6__btns .test6__btn {
+    background-color: #1078AD;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 2px; }
 
 /*--------------------------------------------------------END test6---------------------------------------------------------------------------*/
 /*--------------------------------------------------------test7---------------------------------------------------------------------------*/
-.test7 {
-  display: none; }
-  .test7__quest7 {
-    width: 40vw;
-    margin: auto;
-    font-size: 1.2em;
-    color: #787878;
-    margin-bottom: 40px; }
-  .test7__btns {
-    width: 65vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-around; }
-    .test7__btns .test7__btn {
-      background-color: #1078AD;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-decoration: none;
-      font-size: 16px;
-      cursor: pointer;
-      border-radius: 2px; }
+.test7__quest7 {
+  width: 50vw;
+  margin: auto;
+  font-size: 1.5em;
+  color: #787878;
+  margin-bottom: 40px; }
+
+.test7__btns {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around; }
+  .test7__btns .test7__btn {
+    background-color: #1078AD;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 2px; }
 
 /*--------------------------------------------------------END test7---------------------------------------------------------------------------*/
 /*-------------------------------------------------------- test8---------------------------------------------------------------------------*/
-.test8 {
-  display: none; }
-  .test8__quest8 {
-    width: 40vw;
-    margin: auto;
-    font-size: 1.2em;
-    color: #787878;
-    margin-bottom: 40px; }
-  .test8__btns {
-    width: 65vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-around; }
-    .test8__btns .test8__btn {
-      background-color: #1078AD;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-decoration: none;
-      font-size: 16px;
-      cursor: pointer;
-      border-radius: 2px; }
+.test8__quest8 {
+  width: 50vw;
+  margin: auto;
+  font-size: 1.5em;
+  color: #787878;
+  margin-bottom: 40px; }
+
+.test8__btns {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around; }
+  .test8__btns .test8__btn {
+    background-color: #1078AD;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 2px; }
 
 .section1 {
   line-height: 20px;
