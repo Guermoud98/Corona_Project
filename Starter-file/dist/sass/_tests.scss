@@ -24,9 +24,6 @@
             width: 70vw;
             margin: auto;
 
-
-
-
         }
 
         .preambule__border {
@@ -39,11 +36,15 @@
     }
 
     &__link {
-        text-decoration: none;
-        color: $fourth-Color;
-        padding: 10px 45px;
         background-color: $eighth-color;
-        border-radius: 4px;
+        border: none;
+        color: $fourth-Color;
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 1.2em;
+        cursor: pointer;
+        border-radius: 2px;
+       
     }
 }
 
@@ -80,18 +81,37 @@
             border-radius: 2px;
             font-size: 1.2em;
         }
+        .buttons {
 
-        .test1__qstSuivante {
-            background-color: $eighth-color;
-            border: none;
-            color: $fourth-Color;
-            padding: 15px 32px;
-            text-decoration: none;
-            font-size: 1.4em;
-            cursor: pointer;
-            border-radius: 2px;
+          display: flex;
+          justify-content: space-between;
+
+            .test1__precedante {
             
+                background-color: $eighth-color;
+                border: none;
+                color: $fourth-Color;
+                padding: 15px 20px;
+                text-decoration: none;
+                font-size: 1.2em;
+                cursor: pointer;
+                border-radius: 2px;
+                
+            }
+            .test1__suivante{
+                background-color: $eighth-color;
+                border: none;
+                color: $fourth-Color;
+                padding: 15px 20px;
+                text-decoration: none;
+                font-size: 1.2em;
+                cursor: pointer;
+                border-radius: 2px;
+               
+                
+            }
         }
+      
 
     }
 
@@ -103,14 +123,7 @@
 
 /* ----------------------------------------------------------- test2 --------------------------------------------------------------- */
 
-.test2 {
-   
-    &__content {
-        width: 50vw;
-        margin: auto;
-        font-size: 1.5em;
-        color: $eleventh-color;
-        margin-bottom: 40px;
+
         
 
         input {
@@ -122,221 +135,195 @@
             font-size: 1.2em;
         }
 
-        .test2__degre {
-            display: inline-block;
-            color: $eighth-color;
-            font-size: 1.2em;
-        }
-
-    }
-
-    &__btns {
-        width: 75vw;
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
        
 
-        .test2__btn {
-            background-color: $eighth-color;
-            border: none;
-            color: $fourth-Color;
-            padding: 15px 32px;
-            text-decoration: none;
-            font-size: 1.5em;
-            cursor: pointer;
-            border-radius: 2px;
-        }
+// /*-------------------------------------------------------- END test2---------------------------------------------------------------------------*/
 
-    }
-}
-/*-------------------------------------------------------- END test2---------------------------------------------------------------------------*/
+// /*--------------------------------------------------------test3---------------------------------------------------------------------------*/
 
-/*--------------------------------------------------------test3---------------------------------------------------------------------------*/
+// .test3 {
+// //    display: block;
+//     &__quest3 {
+//         width: 50vw;
+//         margin: auto;
+//         font-size: 1.5em;
+//         color: $eleventh-color;
+//         margin-bottom: 40px;
+//     }
+//     &__btns {
+//         width: 75vw;
+//         margin: auto;
+//         display: flex;
+//         justify-content: space-around;
 
-.test3 {
-//    display: block;
-    &__quest3 {
-        width: 50vw;
-        margin: auto;
-        font-size: 1.5em;
-        color: $eleventh-color;
-        margin-bottom: 40px;
-    }
-    &__btns {
-        width: 75vw;
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
+//         .test3__btn {
+//             background-color: $eighth-color;
+//             border: none;
+//             color:$fourth-Color;
+//             padding: 15px 32px;
+//             text-decoration: none;
+//             font-size: 1.5em;
+//             cursor: pointer;
+//             border-radius: 2px;
+//         }
 
-        .test3__btn {
-            background-color: $eighth-color;
-            border: none;
-            color:$fourth-Color;
-            padding: 15px 32px;
-            text-decoration: none;
-            font-size: 1.5em;
-            cursor: pointer;
-            border-radius: 2px;
-        }
-
-    }
+//     }
 
 
-}
+// }
 
-/*-------------------------------------------------------- END test3---------------------------------------------------------------------------*/
+// /*-------------------------------------------------------- END test3---------------------------------------------------------------------------*/
 
-/*--------------------------------------------------------test4---------------------------------------------------------------------------*/
-.test4 {
-    // display: none;
-    &__quest4 {
-        width: 50vw;
-        margin: auto;
-        font-size: 1.5em;
-        color: $eleventh-color;
-        margin-bottom: 40px;
-    }
-    &__btns {
-        width: 75vw;
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
+// /*--------------------------------------------------------test4---------------------------------------------------------------------------*/
+// .test4 {
+//     // display: none;
+//     &__quest4 {
+//         width: 50vw;
+//         margin: auto;
+//         font-size: 1.5em;
+//         color: $eleventh-color;
+//         margin-bottom: 40px;
+//     }
+//     &__btns {
+//         width: 75vw;
+//         margin: auto;
+//         display: flex;
+//         justify-content: space-around;
 
-        .test4__btn {
-            background-color: $eighth-color;
-            border: none;
-            color: $fourth-Color;
-            padding: 15px 32px;
-            text-decoration: none;
-            font-size: 1.5em;
-            cursor: pointer;
-            border-radius: 2px;
-        }
+//         .test4__btn {
+//             background-color: $eighth-color;
+//             border: none;
+//             color: $fourth-Color;
+//             padding: 15px 32px;
+//             text-decoration: none;
+//             font-size: 1.5em;
+//             cursor: pointer;
+//             border-radius: 2px;
+//         }
 
-    }
-}
-/*-------------------------------------------------------- END test4---------------------------------------------------------------------------*/
-/*--------------------------------------------------------test5---------------------------------------------------------------------------*/
-.test5 {
-    // display: none;
-    &__quest5 {
-        width: 50vw;
-        margin: auto;
-        font-size: 1.5em;
-        color: $eleventh-color;
-        margin-bottom: 40px;
-    }
-    &__btns {
-        width: 75vw;
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
+//     }
+// }
+// /*-------------------------------------------------------- END test4---------------------------------------------------------------------------*/
+// /*--------------------------------------------------------test5---------------------------------------------------------------------------*/
+// .test5 {
+//     // display: none;
+//     &__quest5 {
+//         width: 50vw;
+//         margin: auto;
+//         font-size: 1.5em;
+//         color: $eleventh-color;
+//         margin-bottom: 40px;
+//     }
+//     &__btns {
+//         width: 75vw;
+//         margin: auto;
+//         display: flex;
+//         justify-content: space-around;
 
-        .test5__btn {
-            background-color: $eighth-color;
-            border: none;
-            color: $fourth-Color;
-            padding: 15px 32px;
-            text-decoration: none;
-            font-size: 1.5em;
-            cursor: pointer;
-            border-radius: 2px;
-        }
+//         .test5__btn {
+//             background-color: $eighth-color;
+//             border: none;
+//             color: $fourth-Color;
+//             padding: 15px 32px;
+//             text-decoration: none;
+//             font-size: 1.5em;
+//             cursor: pointer;
+//             border-radius: 2px;
+//         }
 
-    }
-}
-/*-------------------------------------------------------- END test5---------------------------------------------------------------------------*/
+//     }
+// }
+// /*-------------------------------------------------------- END test5---------------------------------------------------------------------------*/
 
-/*--------------------------------------------------------test6---------------------------------------------------------------------------*/
-.test6 {
-    // display: none;
-    &__quest6 {
-        width: 50vw;
-        margin: auto;
-        font-size: 1.5em;
-        color: $eleventh-color;
-        margin-bottom: 40px;
-    }
-    &__btns {
-        width: 75vw;
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
+// /*--------------------------------------------------------test6---------------------------------------------------------------------------*/
+// .test6 {
+//     // display: none;
+//     &__quest6 {
+//         width: 50vw;
+//         margin: auto;
+//         font-size: 1.5em;
+//         color: $eleventh-color;
+//         margin-bottom: 40px;
+//     }
+//     &__btns {
+//         width: 75vw;
+//         margin: auto;
+//         display: flex;
+//         justify-content: space-around;
 
-        .test6__btn {
-            background-color: $eighth-color;
-            border: none;
-            color: $fourth-Color;
-            padding: 15px 32px;
-            text-decoration: none;
-            font-size: 1.5em;
-            cursor: pointer;
-            border-radius: 2px;
-        }
+//         .test6__btn {
+//             background-color: $eighth-color;
+//             border: none;
+//             color: $fourth-Color;
+//             padding: 15px 32px;
+//             text-decoration: none;
+//             font-size: 1.5em;
+//             cursor: pointer;
+//             border-radius: 2px;
+//         }
 
-    }
-}
-/*--------------------------------------------------------END test6---------------------------------------------------------------------------*/
+//     }
+// }
+// /*--------------------------------------------------------END test6---------------------------------------------------------------------------*/
 
-/*--------------------------------------------------------test7---------------------------------------------------------------------------*/
-.test7 {
-    // display: none;
-    &__quest7 {
-        width: 50vw;
-        margin: auto;
-        font-size: 1.5em;
-        color: $eleventh-color;
-        margin-bottom: 40px;
-    }
-    &__btns {
-        width: 75vw;
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
+// /*--------------------------------------------------------test7---------------------------------------------------------------------------*/
+// .test7 {
+//     // display: none;
+//     &__quest7 {
+//         width: 50vw;
+//         margin: auto;
+//         font-size: 1.5em;
+//         color: $eleventh-color;
+//         margin-bottom: 40px;
+//     }
+//     &__btns {
+//         width: 75vw;
+//         margin: auto;
+//         display: flex;
+//         justify-content: space-around;
 
-        .test7__btn {
-            background-color: $eighth-color;
-            border: none;
-            color: $fourth-Color;
-            padding: 15px 32px;
-            text-decoration: none;
-            font-size: 1.5em;
-            cursor: pointer;
-            border-radius: 2px;
-        }
+//         .test7__btn {
+//             background-color: $eighth-color;
+//             border: none;
+//             color: $fourth-Color;
+//             padding: 15px 32px;
+//             text-decoration: none;
+//             font-size: 1.5em;
+//             cursor: pointer;
+//             border-radius: 2px;
+//         }
 
-    }
-}
-/*--------------------------------------------------------END test7---------------------------------------------------------------------------*/
-/*-------------------------------------------------------- test8---------------------------------------------------------------------------*/
-.test8 {
-    // display: none;
-    &__quest8 {
-        width: 50vw;
-        margin: auto;
-        font-size: 1.5em;
-        color: $eleventh-color;
-        margin-bottom: 40px;
-    }
-    &__btns {
-        width: 75vw;
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
+//     }
+// }
+// /*--------------------------------------------------------END test7---------------------------------------------------------------------------*/
+// /*-------------------------------------------------------- test8---------------------------------------------------------------------------*/
+// .test8 {
+//     // display: none;
+//     &__quest8 {
+//         width: 50vw;
+//         margin: auto;
+//         font-size: 1.5em;
+//         color: $eleventh-color;
+//         margin-bottom: 40px;
+//     }
+//     &__btns {
+//         width: 75vw;
+//         margin: auto;
+//         display: flex;
+//         justify-content: space-around;
 
-        .test8__btn {
-            background-color: $eighth-color;
-            border: none;
-            color: $fourth-Color;
-            padding: 15px 32px;
-            text-decoration: none;
-            font-size: 1.5em;
-            cursor: pointer;
-            border-radius: 2px;
-        }
+//         .test8__btn {
+//             background-color: $eighth-color;
+//             border: none;
+//             color: $fourth-Color;
+//             padding: 15px 32px;
+//             text-decoration: none;
+//             font-size: 1.5em;
+//             cursor: pointer;
+//             border-radius: 2px;
+//         }
 
-    }
-}
+//     }
+// }
 
 
