@@ -38,6 +38,11 @@
     .header .header__lists li {
       padding: 0 9px; } }
 
+.progress {
+  height: 20px;
+  background-color: #96C5DC;
+  margin: 20px 0; }
+
 /* ----------------------------------------------------------- preambule --------------------------------------------------------------- */
 .preambule {
   text-align: center;
