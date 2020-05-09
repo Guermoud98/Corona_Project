@@ -9,7 +9,7 @@ const questions = [{ // 1
     { // 2
         question: `quelle est votre température?`,
         input: `<input  class ="test2__input"  type="number" id="number" name="temperature-degre" aria-describedby="text-suffix" min="34" max="42"
-        step="0.1" placeholder="37,0" value = "" required=""> <label>température</label><br>`,
+        step="0.1" placeholder="37.0" value = "" required=""> <label>température</label><br>`,
         type: 2
 
     },
@@ -33,7 +33,7 @@ const questions = [{ // 1
 
     { // 5
         question: `Avez-vous un mal de gorge apparu ces derniers jours ? `,
-        input: `<input type="radio" nname="qst" value="oui">
+        input: `<input type="radio" name="qst" value="oui">
         <label>Oui</label><br>
         <input type="radio" name="qst" value="non">
         <label>Non</label><br>`,
@@ -93,25 +93,28 @@ const questions = [{ // 1
         type: 1
     },
     { // 12
-        question: `Avez-vous d’autre symptôme?`,
+        question: `Quelle est votre taille ?`,
         input: `
-        <input type="text" name="symptome"><br>`,
-        type: 1
+        <input  class ="test2__input" id="number" type="number" name="age" aria-describedby="text-suffix" 
+        step="0.1"  required="">
+        <label>cm</label><br>`,
+        type: 2
     },
+
     { // 13
         question: `Quel est votre âge ?`,
         input: `
         <input  class ="test2__input" id="number" type="number" name="age" aria-describedby="text-suffix" 
-        step="0.1"  required=""> <label>ans</label><br>`,
+        step="0.1"  required=""> 
+        <label>ans</label><br>`,
         type: 2
     },
     { // 14
-        question: `Quel est votre poids ? Quelle est votre taille ?`,
+        question: `Quel est votre poids ? `,
         input: `
-        <input type="radio" name="qst" id="number">
-        <label>Kgs</label><br>
-        <input type="radio" name="qst" id="number">
-        <label>Cm</label><br>`,
+        <input  class ="test2__input" id="number" type="number" name="age" aria-describedby="text-suffix" 
+        step="0.1"  required="">
+        <label>Kgs</label><br>`,
         type: 1
 
     },
@@ -213,7 +216,7 @@ const questions = [{ // 1
 
 let currentQuestion = 0;
 const totalQuestions = questions.length;
-let progress = document.querySelector(".progress");
+let progress = document.querySelector("#progress");
 const preambule = document.querySelector("#preambule");
 const start = document.querySelector("#start");
 const qst = document.querySelector("#qst");
@@ -230,6 +233,7 @@ let answers = [];
 info.style.display = "none";
 btnPrevious.style.display = "none";
 btnNext.style.display = "none";
+
 
 // function bar(progression) {
 //     progress.firstElementChild.style.width = `${100/23*progression}%`;
@@ -261,6 +265,7 @@ function startTest() {
     form.style.display = "";
     btnNext.textContent = " la question suivante";
     info.style.display = "block";
+
 }
 
 function loadNextQuestion() {
@@ -268,14 +273,12 @@ function loadNextQuestion() {
     const inputNumber = document.querySelector("#number");
     const inputs = document.querySelector("input");
 
-    if (inputs.id === 'number') {
-        answers.push(inputNumber.value);
+    if (inputs.id === 'number') { // oui if (questions[currentQuestion].type === 2) 
+
+        answers.push(parseFloat(inputNumber.value));
         console.log(answers);
 
-    }
-   
-   
-      else if (questions[currentQuestion].type === 1) {
+    } else if (questions[currentQuestion].type === 1) {
         var valeur = document.querySelector('input[name=qst]:checked');
         if (valeur === null) {
             alert("please enter your answer");
@@ -323,6 +326,82 @@ function loadPreviousQuestion() {
         info.style.display = "block";
     }
     loadQuestion(currentQuestion);
-    // bar(currentQuestion);
     answers.pop();
+}
+
+// facteur pronostique 
+
+function facteurPronostique(age, hypertensionCardio, diabetique, cancer, maladieRespir, insuffisanceRenale, maladieFoie, enceinte, defenseImmuno, traitementImmuno, ) {
+    var calculFacteurPronostique = 0
+    if (age >= 70) {
+        calculFacteurPronostique++;
+    }
+    if (hypertensionCardio == "oui") {
+        calculFacteurPronostique++;
+    }
+    if (diabetique == "oui") {
+        calculFacteurPronostique++;
+    }
+    if (cancer == 'oui') {
+        calculFacteurPronostique++;
+    }
+    if (maladieRespir == 'oui') {
+        calculFacteurPronostique++;
+    }
+    if (insuffisanceRenale == 'oui') {
+        calculFacteurPronostique++;
+    }
+    if (maladieFoie == 'oui') {
+        calculFacteurPronostique++;
+    }
+    if (enceinte == 'oui') {
+        calculFacteurPronostique++;
+    }
+    if (defenseImmuno == 'oui') {
+        calculFacteurPronostique++;
+    }
+    if (traitementImmuno == 'oui') {
+        calculFacteurPronostique++;
+    }
+
+    return calculFacteurPronostique;
+
+}
+
+// facteur de gravité mineur
+
+function facteurGraviteMineur (fievre,fatigue,malaise) {
+    var calculFacteurGraviteMineur = 0;
+    if (fievre >= 39) {
+        calculFacteurGraviteMineur ++;
+    }
+    if (fatigue == 'oui') {
+        calculFacteurGraviteMineur ++;
+    }
+    if (malaise == 'oui') {
+        calculFacteurGraviteMineur ++;
+    }
+    return  calculFacteurGraviteMineur;
+}
+
+// facteur de gravité majeur
+
+function facteurGraviteMajeur (geneRespira,difficultéAlimentation,fievre) {
+    var calculFacteurGraviteMajeur = 0 ;
+    if (geneRespira == 'oui') {
+    calculFacteurGraviteMajeur++;
+    }
+    if (difficultéAlimentation == 'oui') {
+        calculFacteurGraviteMineur++;
+    }
+    if (fievre <= 35.4) {
+        calculFacteurGraviteMineur++;
+    }
+    return calculFacteurGraviteMajeur;
+}
+
+//algo 
+
+function getResult () {
+
 }

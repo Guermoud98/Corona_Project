@@ -1,9 +1,16 @@
-.progress {
-    height:  20px;
-    background-color: $ninth-color;
-    margin: 20px 0;
+#myProgress {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: grey;
 }
 
+#myBar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: green;
+}
 
 
 /* ----------------------------------------------------------- preambule --------------------------------------------------------------- */
@@ -52,7 +59,7 @@
         font-size: 1.2em;
         cursor: pointer;
         border-radius: 2px;
-       
+
     }
 }
 
@@ -89,13 +96,14 @@
             border-radius: 2px;
             font-size: 1.2em;
         }
+
         .buttons {
 
-          display: flex;
-          justify-content: space-between;
+            display: flex;
+            justify-content: space-between;
 
             .test1__precedante {
-            
+
                 background-color: $eighth-color;
                 border: none;
                 color: $fourth-Color;
@@ -104,9 +112,10 @@
                 font-size: 1.2em;
                 cursor: pointer;
                 border-radius: 2px;
-                
+
             }
-            .test1__suivante{
+
+            .test1__suivante {
                 background-color: $eighth-color;
                 border: none;
                 color: $fourth-Color;
@@ -115,11 +124,11 @@
                 font-size: 1.2em;
                 cursor: pointer;
                 border-radius: 2px;
-               
-                
+
+
             }
         }
-      
+
 
     }
 
@@ -129,21 +138,56 @@
 /* ----------------------------------------------------------- End test1--------------------------------------------------------------- */
 
 
-/* ----------------------------------------------------------- test2 --------------------------------------------------------------- */
+/* ----------------------------------------------------------- input --------------------------------------------------------------- */
 
 
-        
 
-        input {
-            font-size: 1.2em;
-            padding: 6px 0;
-            color: $eighth-color;
-            border: 3px solid $eighth-color;
-            width: 15vw;
-            font-size: 1.2em;
-        }
 
-       
+input {
+    font-size: 1.2em;
+    padding: 6px 0;
+    color: $eighth-color;
+    border: 3px solid $eighth-color;
+    width: 15vw;
+    font-size: 1.2em;
+}
+
+/*-------------------------------------------------------- result ---------------------------------------------------------------------------*/
+
+
+#result {
+    display: none;
+    text-align: center;
+
+&__test {
+     background-color: $eighth-color;
+    width: 50vw;
+    margin: auto;
+    padding: 10px 16px;
+    color: $first-color;
+    border-radius: 6px;
+   
+
+    h2 {
+        color:$seventh-color;
+
+    }
+}
+&__btn {
+    background-color: $eighth-color;
+    border: none;
+    color: $fourth-Color;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+}
+
+
+
 
 // /*-------------------------------------------------------- END test2---------------------------------------------------------------------------*/
 
@@ -333,5 +377,3 @@
 
 //     }
 // }
-
-

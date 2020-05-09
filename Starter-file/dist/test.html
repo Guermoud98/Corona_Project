@@ -48,8 +48,8 @@
 
   <!-- Progress bar -->
 
-  <div class="progress">
-    <div id="progress-bar"></div>
+  <div id="myProgress">
+    <div id="myBar"></div>
   </div>
 
 
@@ -88,7 +88,7 @@
   <!-- test1 -->
   <div class="test1">
     <div class="test1__quest1">
-      <p id="qst" class="test1__parag"> </p>
+      <p id="qst" class="qst"> </p>
       <form id="form" class="test1__form">
 
       </form>
@@ -102,12 +102,27 @@
         Vous avez aucun doute, il est nécessaire de consulter votre médecin .
       </p>
       <div class="buttons">
-        <div> <button id="btn-previous" class="test1__precedante" onclick="loadPreviousQuestion()"> la question précédante</button></div>
-        <div><button id="btn-next" class="test1__suivante" onclick="loadNextQuestion()"> la question suivante</button></div>
+        <div> <button id="btn-previous" class="test1__precedante" onclick="loadPreviousQuestion()"> la question
+            précédante</button></div>
+        <div><button id="btn-next" class="test1__suivante" onclick="loadNextQuestion()"> la question suivante</button>
+        </div>
 
       </div>
     </div>
   </div>
+
+  <div id="result">
+    <div id ="result__test">
+      <h2> lorem lorem </h2>
+      <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam distinctio porro culpa illum, odit magnam
+        amet
+        maiores deserunt, eaque sed similique sint itaque, soluta magni vero reprehenderit ipsa ratione accusamus.</p>
+    </div>
+    <button id="result__btn">reprendre le test</button>
+  </div>
+
+
+
 
   <!-- END test1 -->
 
