@@ -4,7 +4,7 @@
 .header {
     @include flex (space-between, center);
     padding: 12px 50px;
-    background-image: url(/Design/Assets/png/Mergedbar-53.png);
+    background-image: url(../../../Design/Assets/png/Mergedbar-53.png);
     height: 6vh;
 
     img {
@@ -23,7 +23,7 @@
 
         a {
             text-decoration: none;
-            color: $fifth-color;
+            color: $fifth-color
         }
 
         .header__list1 {

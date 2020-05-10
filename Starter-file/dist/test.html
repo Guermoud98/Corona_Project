@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/Starter-file/dist/css/style.css" />
+  <link rel="stylesheet" href="css/style.css"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&display=swap" rel="stylesheet">
   <link rel="icon" href="/Starter-file/favicon.ico">
@@ -19,8 +19,8 @@
     </div>
     <div class="header__items">
       <ul class="header__lists">
-        <li><a class="header__list1" href="/Starter-file/dist/conseil.html"> Conseil </a></li>
-        <li><a class="header__list2" href="/index.html"> Acceuil </a></li>
+        <li><a class="header__list1" href="conseil.html"> Conseil </a></li>
+        <li><a class="header__list2" href="../../index.html"> Acceuil </a></li>
         <li><a class="header__list3" href="#"> عربي <i class="fas fa-globe"></i> </a> </li>
       </ul>
     </div>
@@ -48,9 +48,9 @@
 
   <!-- Progress bar -->
 
-  <div id="myProgress">
+  <!-- <div id="myProgress">
     <div id="myBar"></div>
-  </div>
+  </div> -->
 
 
   <!-- Préambule  -->
@@ -110,17 +110,16 @@
       </div>
     </div>
   </div>
-
   <div id="result">
-    <div id ="result__test">
-      <h2> lorem lorem </h2>
-      <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam distinctio porro culpa illum, odit magnam
-        amet
-        maiores deserunt, eaque sed similique sint itaque, soluta magni vero reprehenderit ipsa ratione accusamus.</p>
-    </div>
-    <button id="result__btn">reprendre le test</button>
-  </div>
+    <div id="result__test">
 
+
+    </div>
+    <div id="result__btns">
+      <div></div>
+      <div> <button id="result__btn" onclick="restartTest ()">reprendre le test</button> </div>
+    </div>
+  </div>
 
 
 
@@ -300,7 +299,7 @@
       <div class="footer__left">
         <ul>
           <li class="footer__left1"> FRAN <i class="fas fa-globe footer__glob"></i></li>
-          <li> <a class="footer__left2" href="/index.html">Acceuil</a> </li>
+          <li> <a class="footer__left2" href="../../index.html">Acceuil</a> </li>
           <li class="footer__left3"> Conseil</li>
         </ul>
       </div>
