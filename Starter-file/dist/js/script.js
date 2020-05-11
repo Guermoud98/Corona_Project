@@ -82,13 +82,13 @@ const questions = [{ // 0
     { // 10
         question: `Comment vous sentez-vous ?`,
         input: `
-        <input type="radio" name="qst" value="non">
-        <label>Mal</label><br>
-        <input type="radio" name="qst" value="non">
-        <label>Très mal</label><br>
-        <input type="radio"name="qst" value="oui">
-        <label>Assez bien</label><br>
         <input type="radio" name="qst" value="oui">
+        <label>Mal</label><br>
+        <input type="radio" name="qst" value="oui">
+        <label>Très mal</label><br>
+        <input type="radio"name="qst" value="non">
+        <label>Assez bien</label><br>
+        <input type="radio" name="qst" value="non">
         <label>bien</label><br>`,
         type: 1
     },
@@ -172,7 +172,7 @@ const questions = [{ // 0
         <label>Non</label><br>`,
         type: 1
     },
-    { // 20 à vérifier
+    { // 20 
         question: `Êtes-vous enceinte ?`,
         input: `
         <input type="radio" name="qst" value="oui">
@@ -194,7 +194,7 @@ const questions = [{ // 0
         <label>Ne sait pas</label><br>`,
         type: 1
     },
-    { // 22 à vérifier
+    { // 22 
         question: `Prenez-vous un traitement immunosuppresseur ? C’est un traitement qui diminue vos défenses contre les infections. Voici quelques exemples : corticoïdes, méthotrexate, ciclosporine, tacrolimus, azathioprine, cyclophosphamide (liste non exhaustive).`,
         input: `
         <input type="radio" name="qst" value="oui">
@@ -417,10 +417,10 @@ function facteurGraviteMajeur(geneRespira, difficultéAlimentation, fievre) {
         calculFacteurGraviteMajeur++;
     }
     if (difficultéAlimentation == 'oui') {
-        calculFacteurGraviteMineur++;
+        calculFacteurGraviteMajeur++;
     }
     if (fievre <= 35.4) {
-        calculFacteurGraviteMineur++;
+        calculFacteurGraviteMajeur++;
     }
     return calculFacteurGraviteMajeur;
 }
@@ -442,7 +442,7 @@ function getResult(answers) {
     var diarrhee = answers[5];
 
     if (answers[0] == "oui" || toux == "oui" && gorge == "oui" || toux == "oui" && courbature == "oui" || answers[0] == "oui" && diarrhee == "oui") {
-        if (facteurGraviteMajeur >= 1) {
+        if (majeur >= 1) {
             result.innerHTML = " <p> Appel 141. </p>"
             result.style.display = "block";
             resultBtn.style.display = "block";
